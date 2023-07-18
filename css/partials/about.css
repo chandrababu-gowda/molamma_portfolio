@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__image {
+  border: var(--br1);
+  border-radius: 20rem 1rem 1rem 1rem;
+  width: 45%;
+  height: 550px;
+  /* margin-left: 2rem; */
+  margin: 1rem 3rem;
+}
+
+.about__content {
+  width: 50%;
+  padding-right: 5rem;
+}
+
+.about__intro h2 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about__achievements {
+  display: flex;
+  /* border: var(--br1); */
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.about__achievement {
+  text-align: center;
+}
+
+.about__achievement h3 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.25rem;
+}
+
+.about__achievement p {
+  font-size: 0.9rem;
+}

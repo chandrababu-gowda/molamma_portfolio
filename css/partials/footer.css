@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer__external-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer__external-links a {
+  border: var(--br1);
+  border-radius: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}

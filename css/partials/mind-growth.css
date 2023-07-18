@@ -1,0 +1,43 @@
+.mind-growth {
+  padding: 3rem;
+}
+
+.mind-growth > h2 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mind-growth__layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mind-growth__card {
+  border: var(--br1);
+  height: 350px;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  width: 60%;
+  border-radius: 3rem 1rem 1rem 1rem;
+}
+.card2 {
+  width: 40%;
+  border-radius: 1rem 3rem 1rem 1rem;
+}
+.card3 {
+  width: 30%;
+  border-radius: 1rem 1rem 1rem 3rem;
+}
+.card4 {
+  width: 70%;
+  border-radius: 1rem 1rem 3rem 1rem;
+}

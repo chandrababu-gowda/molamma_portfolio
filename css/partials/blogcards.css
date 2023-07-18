@@ -1,0 +1,50 @@
+.blog__cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 3rem;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+.blogs {
+  padding: 3rem 0;
+}
+
+.blogs > h2 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blog__card > * {
+  margin-bottom: 1rem;
+}
+
+.blog__card > h6 {
+  font-size: 0.75rem;
+  letter-spacing: 0.4rem;
+  color: gray;
+  font-family: "Laila", sans-serif;
+}
+
+.blog__card > h3 {
+  margin-bottom: 0.25rem;
+  font-size: 1.35rem;
+  /* letter-spacing: 0.75px; */
+  font-family: "Signika", sans-serif;
+}
+
+.blog__card > a {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 0.4rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.blog__card > a:hover {
+  background-color: var(--black);
+  transition: 300ms background-color;
+}

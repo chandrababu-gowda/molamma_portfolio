@@ -1,0 +1,38 @@
+.publication-research {
+  padding: 8rem 0;
+}
+
+.pr-layout {
+  display: flex;
+}
+
+.pr-layout > * {
+  width: 50%;
+}
+
+.pr__image {
+  border: var(--br1);
+  height: 350px;
+}
+
+.img1 {
+  border-radius: 0 3rem 0 0;
+}
+
+.img2 {
+  border-radius: 0 0 0 3rem;
+}
+
+.pr__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.pr__heading a {
+  color: var(--black);
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}

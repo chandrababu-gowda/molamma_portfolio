@@ -1,0 +1,18 @@
+.hero {
+  /* border: var(--br1); */
+  height: 100vh;
+  padding: 13rem 5rem;
+}
+
+.hero h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 9rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.hero p {
+  font-family: "Philosopher", sans-serif;
+  font-size: 2rem;
+  color: var(--blue);
+}

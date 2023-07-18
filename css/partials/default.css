@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Philosopher:wght@400;700&family=Signika:wght@300;400;500;600;700&family=Tangerine:wght@400;700&display=swap");
+
+/* 
+
+font-family: 'Laila', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Signika', sans-serif;
+font-family: 'Tangerine', cursive;
+
+*/
+
+:root {
+  --black: #1c1c1e;
+  --white: #fffafa;
+  --blue: #3f66da;
+  --br1: 2px solid red;
+  --br2: 2px solid blue;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Laila", sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+body {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: min(100%, 1400px);
+  display: flex;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+}

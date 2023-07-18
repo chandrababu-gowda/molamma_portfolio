@@ -1,0 +1,46 @@
+@import url(./default.css);
+
+.sidebar {
+  width: 13%;
+  background-color: var(--black);
+  /* padding: 1rem; */
+  color: var(--white);
+  text-align: center;
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.sidebar__logo {
+  font-family: "Tangerine", cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+}
+
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: var(--white);
+  /* border: var(--br1); */
+  padding: 1rem 0;
+  margin-top: 1.5rem;
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.11rem;
+  font-weight: bold;
+}
+
+.sidebar__link:hover {
+  background-color: var(--white);
+  color: var(--black);
+  transition: 400ms background-color;
+}
