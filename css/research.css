@@ -1,0 +1,45 @@
+@import url(./partials/default.css);
+@import url(./partials/sidebar.css);
+@import url(./partials/footer.css);
+
+.research-area {
+  /* border: var(--br1); */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 3rem;
+
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.research-area h2 {
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 25%;
+}
+
+.research-area > div {
+  width: 75%;
+}
+
+.research-area > div > p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 1rem;
+  }
+  .research-area {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .research-area h2,
+  .research-area > div {
+    width: 100%;
+  }
+}

@@ -10,7 +10,7 @@
   width: 45%;
   height: 550px;
   /* margin-left: 2rem; */
-  margin: 1rem 3rem;
+  /* margin: 1rem 3rem; */
 }
 
 .about__content {
@@ -23,6 +23,9 @@
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+}
+.about__intro > p {
+  padding: 1rem 0;
 }
 
 .about__achievements {

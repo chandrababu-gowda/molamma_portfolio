@@ -1,0 +1,42 @@
+@import url(./partials/default.css);
+@import url(./partials/sidebar.css);
+@import url(./partials/footer.css);
+
+.main {
+  width: 100%;
+  margin: 2rem 3rem;
+}
+
+.tools__cards {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.tool__card {
+  /* border: var(--br1); */
+  box-shadow: 1px 3px 10px 2px #ebebeb;
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  border-radius: 1rem;
+}
+
+.tool__card img {
+  width: 5rem;
+  height: 5rem;
+  border: var(--br2);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+@media (max-width: 600px) {
+  .tools__cards {
+    grid-template-columns: repeat(1, auto);
+    margin: 1rem 2rem;
+  }
+}

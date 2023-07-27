@@ -1,8 +1,91 @@
 @import url(./partials/default.css);
 @import url(./partials/sidebar.css);
+@import url(./partials/footer.css);
+
 @import url(./partials/hero.css);
 @import url(./partials/about.css);
 @import url(./partials/publication_research.css);
 @import url(./partials/blogcards.css);
 @import url(./partials/mind-growth.css);
-@import url(./partials/footer.css);
+
+@media (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
+
+  .hero {
+    /* height: 100vh; */
+    padding: 15rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* About section */
+
+  .about {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about__image {
+    height: 300px;
+    width: 80%;
+    border-radius: 12rem 1rem 1rem 1rem;
+  }
+
+  .about__content {
+    padding: 2rem 0 0 0;
+    width: 80%;
+  }
+
+  .about__achievements {
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+
+  /* Publication and Research section */
+
+  .publication-research {
+    padding: 0;
+  }
+
+  .pr__heading {
+    border: var(--br1);
+    margin: 1rem 2rem;
+    height: 12rem;
+    border-radius: 1rem;
+  }
+
+  .pr-layout > * {
+    width: 100%;
+  }
+
+  /* Blog section */
+
+  .blog__cards {
+    grid-template-columns: repeat(1, auto);
+    padding: 2rem;
+  }
+
+  /* Mind & Growth section */
+
+  .mind-growth {
+    padding: 2rem;
+  }
+
+  .mind-growth__layout {
+    flex-direction: column;
+  }
+
+  .mind-growth__card {
+    width: 100%;
+    border-radius: 1rem;
+    height: 13rem;
+  }
+}

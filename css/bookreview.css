@@ -1,0 +1,51 @@
+@import url(./partials/default.css);
+@import url(./partials/sidebar.css);
+@import url(./partials/footer.css);
+
+.review-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.book {
+  margin-bottom: 7rem;
+}
+
+.book img {
+  border: var(--br1);
+  width: 300px;
+  height: 400px;
+  border-radius: 1rem;
+}
+
+.book h2 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.book h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.book p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.book ul {
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .book h2 {
+    font-size: 2rem;
+  }
+
+  .book h4 {
+    font-size: 1rem;
+  }
+}

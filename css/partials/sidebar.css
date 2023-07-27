@@ -1,19 +1,18 @@
 @import url(./default.css);
 
-.sidebar {
-  width: 13%;
-  background-color: var(--black);
-  /* padding: 1rem; */
-  color: var(--white);
-  text-align: center;
-}
-
 .sidebar__container {
   display: flex;
   flex-direction: column;
   position: sticky;
   top: 0;
   left: 0;
+  /* border: var(--br1); */
+  /* width: 13%; */
+  background-color: var(--black);
+  padding: 1rem;
+  color: var(--white);
+  text-align: center;
+  height: 100vh;
 }
 
 .sidebar__logo {
@@ -32,6 +31,7 @@
   text-decoration: none;
   color: var(--white);
   /* border: var(--br1); */
+  border-radius: 0.5rem;
   padding: 1rem 0;
   margin-top: 1.5rem;
   font-family: "Philosopher", sans-serif;
@@ -43,4 +43,18 @@
   background-color: var(--white);
   color: var(--black);
   transition: 400ms background-color;
+}
+
+.container__navbar {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Tangerine", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0.75rem 0;
 }

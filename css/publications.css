@@ -1,0 +1,74 @@
+@import url(./partials/default.css);
+@import url(./partials/sidebar.css);
+@import url(./partials/footer.css);
+
+.main {
+  padding: 1.5rem 2rem;
+}
+
+/* .main > h1 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+} */
+
+.publications__cards {
+  padding: 3rem 0rem;
+}
+
+.publication__card {
+  /* border: var(--br1); */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.publication__card > * {
+  /* border: var(--br2); */
+  margin: 1.5rem 0;
+}
+
+.pub__card__num {
+  font-family: "Philosopher", sans-serif;
+  font-size: 4rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.pub__card__content > h2 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub__card__content > p {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .publication__card {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .pub__card__num {
+    font-size: 3rem;
+    padding: 0;
+  }
+
+  .publication__card > * {
+    margin: 0.75rem 0;
+  }
+
+  /* .pub__card__content a {
+    font-size: 0.5rem;
+  } */
+}

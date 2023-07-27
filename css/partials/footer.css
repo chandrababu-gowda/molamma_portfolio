@@ -3,6 +3,14 @@
   color: var(--white);
   text-align: center;
   padding: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer__external-links {

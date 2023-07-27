@@ -17,6 +17,11 @@
   text-align: center;
 }
 
+.blogs > p {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 .blog__card > * {
   margin-bottom: 1rem;
 }
