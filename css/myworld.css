@@ -40,7 +40,8 @@
   margin-bottom: 1rem;
 }
 
-.my-world__part__content p {
+.my-world__part__content p,
+.my-world__part__content ul {
   margin-bottom: 1rem;
 }
 
