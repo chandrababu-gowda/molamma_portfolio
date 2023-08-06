@@ -55,6 +55,9 @@ textarea {
 
 .contact-box form p {
   font-size: 0.75rem;
+  /* border: var(--br1); */
+  margin: 0 1.5rem;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
