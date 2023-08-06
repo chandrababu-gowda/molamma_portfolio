@@ -17,32 +17,39 @@
 }
 
 .mind-growth__card {
-  border: var(--br1);
+  /* border: var(--br1); */
   height: 350px;
   margin: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  background-size: cover;
 }
 
 .mind-growth__card a {
   /* text-decoration: none; */
-  color: var(--black);
+  color: var(--white);
+  font-weight: bold;
 }
 
 .card1 {
+  background-image: url(../../img/book_review.jpg);
   width: 60%;
   border-radius: 3rem 1rem 1rem 1rem;
 }
 .card2 {
+  background-image: url(../../img/mentoring.jpg);
   width: 40%;
   border-radius: 1rem 3rem 1rem 1rem;
 }
 .card3 {
+  background-image: url(../../img/educational_tool.jpg);
   width: 30%;
   border-radius: 1rem 1rem 1rem 3rem;
 }
 .card4 {
+  background-image: url(../../img/my_world.jpg);
   width: 70%;
   border-radius: 1rem 1rem 3rem 1rem;
 }

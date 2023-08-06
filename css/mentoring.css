@@ -2,24 +2,26 @@
 @import url(./partials/sidebar.css);
 @import url(./partials/footer.css);
 
-.main > img {
-  border: var(--br1);
-  width: 100%;
-  height: 600px;
-  margin: 2rem 0;
-  border-radius: 2rem;
-}
-
 .main {
   margin: 2rem 3rem;
 }
 
-.main > p {
+.mentoring__content > p {
   padding: 1rem 0;
+}
+
+.mentoring__content {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 3rem 0;
 }
 
 @media (max-width: 600px) {
   .main {
     margin: 0rem 2rem;
+  }
+  .mentoring__content {
+    width: 100%;
+    padding: 0;
   }
 }

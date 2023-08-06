@@ -21,7 +21,7 @@
 }
 
 .footer__external-links a {
-  border: var(--br1);
+  /* border: var(--br1); */
   border-radius: 0.25rem;
   width: 2rem;
   height: 2rem;

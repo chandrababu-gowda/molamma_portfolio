@@ -1,7 +1,9 @@
 .hero {
   /* border: var(--br1); */
   height: 100vh;
-  padding: 13rem 5rem;
+  padding: 15rem 5rem;
+  background-image: url(../../img/hero_bg.jpg);
+  background-size: cover;
 }
 
 .hero h1 {

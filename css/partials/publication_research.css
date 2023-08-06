@@ -11,8 +11,15 @@
 }
 
 .pr__image {
-  border: var(--br1);
+  /* border: var(--br1); */
   height: 350px;
+  overflow: hidden;
+}
+
+.pr__image > img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .img1 {

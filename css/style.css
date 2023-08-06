@@ -16,6 +16,7 @@
   .hero {
     /* height: 100vh; */
     padding: 15rem 1rem;
+    background-image: none;
   }
 
   .hero h1 {
@@ -56,10 +57,23 @@
   }
 
   .pr__heading {
-    border: var(--br1);
+    /* border: var(--br1); */
     margin: 1rem 2rem;
     height: 12rem;
     border-radius: 1rem;
+  }
+
+  .pr__heading a {
+    color: var(--white);
+  }
+
+  .pr__heading--img1 {
+    background-image: url(../img/publications.jpg);
+    background-size: cover;
+  }
+  .pr__heading--img2 {
+    background-image: url(../img/research.jpg);
+    background-size: cover;
   }
 
   .pr-layout > * {
